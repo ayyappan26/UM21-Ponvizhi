@@ -44,7 +44,6 @@ public class Detaildao {
 		ResultSet rs = st.executeQuery(query);
 		// Users u;
 		while (rs.next()) {
-			// hash_map.put(rs.getInt(1), rs.getString(2));
 			Integer id = rs.getInt("EMPLOYEE_ID");
 			String fname = rs.getString("FIRST_NAME");
 			String lname = rs.getString("LAST_NAME");
